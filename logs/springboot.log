@@ -1,0 +1,5 @@
+2018-05-16 15:28:22  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189 
+2018-05-16 15:28:24  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-16 15:28:28  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-16 15:28:28  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://desc.alicdn.com/i8/560/080/567087098513/TB1fzcXcXooBKNjSZFP8qta2Xla.desc%7Cvar%5Edesc%3Bsign%5E1a534fad13ab26b02fb38abe5d660506%3Blang%5Egbk%3Bt%5E1522747916 
+2018-05-16 15:28:28  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i8/560/080/567087098513/TB1fzcXcXooBKNjSZFP8qta2Xla.desc%7Cvar%5Edesc%3Bsign%5E1a534fad13ab26b02fb38abe5d660506%3Blang%5Egbk%3Bt%5E1522747916] connected successfully! 
