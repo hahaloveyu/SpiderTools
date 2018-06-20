@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed614ad9-965d-4373-b346-f83ce18bdd77" name="Default" comment="" />
-    <ignored path="$PROJECT_DIR$/.gradle/" />
-    <ignored path="$PROJECT_DIR$/build/" />
+    <list default="true" id="5e32777a-f0f9-43b5-b7ab-e7d407325163" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.gradle/4.5/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/springboot-2018-05-16.0.log.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/springboot.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/springboot.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/toptime/webspider/plugins/tools/PlusMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/toptime/webspider/plugins/tools/PlusMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/toptime/webspider/plugins/tools/TdxzAndFwytUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/toptime/webspider/plugins/tools/TdxzAndFwytUtils.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,32 +25,49 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <projects_view>
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="SpiderTools" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="TdxzAndFwytUtils.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/toptime/webspider/plugins/tools/TdxzAndFwytUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-254">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlusMethod.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/toptime/webspider/plugins/tools/PlusMethod.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="421">
+              <caret line="118" column="27" lean-forward="true" selection-start-line="118" selection-start-column="27" selection-end-line="118" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnnexParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/toptime/webspider/plugins/tools/AnnexParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="C:\Users\Administrator\Desktop\gradle-4.6-bin\gradle-4.6" />
+        <entry key="$PROJECT_DIR$" value="C:\gradle" />
       </map>
     </option>
     <option name="myGradleVersions">
       <map>
-        <entry key="$PROJECT_DIR$" value="4.6" />
+        <entry key="$PROJECT_DIR$" value="4.5" />
       </map>
     </option>
     <option name="availableProjects">
@@ -271,7 +297,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="3048069204826" />
+        <entry key="$PROJECT_DIR$" value="3053493194286" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="3484370981" />
       </map>
@@ -309,81 +335,80 @@
               <option name="name" value="SpiderTools" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/ant-1.9.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/ant-launcher-1.9.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/gradle-base-services-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/gradle-base-services-groovy-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/gradle-build-cache-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/gradle-build-option-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/gradle-cli-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/gradle-core-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/gradle-core-api-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/gradle-docs-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/gradle-installation-beacon-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/gradle-jvm-services-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/gradle-kotlin-dsl-0.15.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/gradle-kotlin-dsl-tooling-builders-0.15.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/gradle-kotlin-dsl-tooling-models-0.15.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/gradle-launcher-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/gradle-logging-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/gradle-messaging-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/gradle-model-core-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/gradle-model-groovy-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/gradle-native-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/gradle-persistent-cache-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/gradle-process-services-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/gradle-resources-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/gradle-runtime-api-info-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/gradle-tooling-api-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/gradle-wrapper-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/groovy-all-2.4.12.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-announce-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-antlr-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-build-cache-http-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-build-comparison-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-build-init-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-code-quality-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-composite-builds-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-dependency-management-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-diagnostics-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-ear-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-ide-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-ide-native-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-ide-play-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-ivy-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-jacoco-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-javascript-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-language-groovy-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-language-java-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-language-jvm-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-language-native-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-language-scala-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-maven-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-osgi-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-platform-base-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-platform-jvm-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-platform-native-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-platform-play-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-plugin-development-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-plugin-use-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-plugins-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-publish-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-reporting-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-resources-gcs-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-resources-http-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-resources-s3-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-resources-sftp-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-scala-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-signing-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-test-kit-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-testing-base-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-testing-junit-platform-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-testing-jvm-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-testing-native-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-tooling-api-builders-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-version-control-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/gradle-workers-4.6.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle-4.6-bin/gradle-4.6/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="C:/gradle/lib/ant-1.9.9.jar" />
+                  <option value="C:/gradle/lib/ant-launcher-1.9.9.jar" />
+                  <option value="C:/gradle/lib/gradle-base-services-4.5.jar" />
+                  <option value="C:/gradle/lib/gradle-base-services-groovy-4.5.jar" />
+                  <option value="C:/gradle/lib/gradle-build-cache-4.5.jar" />
+                  <option value="C:/gradle/lib/gradle-build-option-4.5.jar" />
+                  <option value="C:/gradle/lib/gradle-cli-4.5.jar" />
+                  <option value="C:/gradle/lib/gradle-core-4.5.jar" />
+                  <option value="C:/gradle/lib/gradle-core-api-4.5.jar" />
+                  <option value="C:/gradle/lib/gradle-docs-4.5.jar" />
+                  <option value="C:/gradle/lib/gradle-installation-beacon-4.5.jar" />
+                  <option value="C:/gradle/lib/gradle-jvm-services-4.5.jar" />
+                  <option value="C:/gradle/lib/gradle-kotlin-dsl-0.14.2.jar" />
+                  <option value="C:/gradle/lib/gradle-kotlin-dsl-tooling-builders-0.14.2.jar" />
+                  <option value="C:/gradle/lib/gradle-kotlin-dsl-tooling-models-0.14.2.jar" />
+                  <option value="C:/gradle/lib/gradle-launcher-4.5.jar" />
+                  <option value="C:/gradle/lib/gradle-logging-4.5.jar" />
+                  <option value="C:/gradle/lib/gradle-messaging-4.5.jar" />
+                  <option value="C:/gradle/lib/gradle-model-core-4.5.jar" />
+                  <option value="C:/gradle/lib/gradle-model-groovy-4.5.jar" />
+                  <option value="C:/gradle/lib/gradle-native-4.5.jar" />
+                  <option value="C:/gradle/lib/gradle-persistent-cache-4.5.jar" />
+                  <option value="C:/gradle/lib/gradle-process-services-4.5.jar" />
+                  <option value="C:/gradle/lib/gradle-resources-4.5.jar" />
+                  <option value="C:/gradle/lib/gradle-runtime-api-info-4.5.jar" />
+                  <option value="C:/gradle/lib/gradle-tooling-api-4.5.jar" />
+                  <option value="C:/gradle/lib/gradle-wrapper-4.5.jar" />
+                  <option value="C:/gradle/lib/groovy-all-2.4.12.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-announce-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-antlr-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-build-cache-http-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-build-comparison-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-build-init-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-code-quality-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-composite-builds-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-dependency-management-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-diagnostics-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-ear-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-ide-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-ide-native-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-ide-play-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-ivy-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-jacoco-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-javascript-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-language-groovy-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-language-java-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-language-jvm-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-language-native-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-language-scala-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-maven-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-osgi-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-platform-base-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-platform-jvm-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-platform-native-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-platform-play-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-plugin-development-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-plugin-use-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-plugins-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-publish-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-reporting-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-resources-gcs-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-resources-http-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-resources-s3-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-resources-sftp-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-scala-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-signing-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-test-kit-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-testing-base-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-testing-jvm-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-testing-native-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-tooling-api-builders-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-version-control-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/gradle-workers-4.5.jar" />
+                  <option value="C:/gradle/lib/plugins/ivy-2.2.0.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -395,79 +420,34 @@
     </option>
     <option name="projectSyncType">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="PREVIEW" />
-        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+        <entry key="C:/Program Files/SVNceckout" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../SpiderTools" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../SpiderTools/SpiderTools" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$" value="IMPORT" />
       </map>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/toptime/webspider/plugins/tools/AutoFormat.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/toptime/webspider/plugins/tools/PlusMethod.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="SpiderTools" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpiderTools" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpiderTools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpiderTools" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpiderTools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpiderTools" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpiderTools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpiderTools" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpiderTools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpiderTools" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpiderTools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpiderTools" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="webspider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpiderTools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpiderTools" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="webspider" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -476,12 +456,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Desktop\SpiderTools\SpiderTools\libs" />
-    </key>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -496,17 +472,6 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="PlusMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.toptime.webspider.plugins.tools.PlusMethod" />
-      <module name="SpiderTools_main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.toptime.webspider.plugins.tools.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -548,68 +513,93 @@
       <properties />
       <listeners />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.PlusMethod" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration useDefault="false">C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ed614ad9-965d-4373-b346-f83ce18bdd77" name="Default" comment="" />
-      <created>1524039130990</created>
+      <changelist id="5e32777a-f0f9-43b5-b7ab-e7d407325163" name="Default" comment="" />
+      <created>1529458076639</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1524039130990</updated>
+      <updated>1529458076639</updated>
     </task>
     <servers />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="ToolWindowManager">
-    <frame x="260" y="20" width="1400" height="1000" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Gradle" order="3" weight="0.32995737" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50053304" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info active="true" anchor="bottom" id="Version Control" sideWeight="0.49946696" visible="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Build" />
+      <window_info anchor="right" id="Gradle" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32963374" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31964484" />
+      <window_info id="UI Designer" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32963374" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32963374" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/toptime/webspider/plugins/tools/PlusMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="118" column="27" lean-forward="true" selection-start-line="118" selection-start-column="27" selection-end-line="118" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/toptime/webspider/plugins/tools/AnnexParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/toptime/webspider/plugins/tools/TdxzAndFwytUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-254">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

@@ -1,5 +1,330 @@
-2018-05-16 15:28:22  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189 
-2018-05-16 15:28:24  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
-2018-05-16 15:28:28  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
-2018-05-16 15:28:28  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://desc.alicdn.com/i8/560/080/567087098513/TB1fzcXcXooBKNjSZFP8qta2Xla.desc%7Cvar%5Edesc%3Bsign%5E1a534fad13ab26b02fb38abe5d660506%3Blang%5Egbk%3Bt%5E1522747916 
-2018-05-16 15:28:28  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i8/560/080/567087098513/TB1fzcXcXooBKNjSZFP8qta2Xla.desc%7Cvar%5Edesc%3Bsign%5E1a534fad13ab26b02fb38abe5d660506%3Blang%5Egbk%3Bt%5E1522747916] connected successfully! 
+2018-05-18 09:59:09  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189 
+2018-05-18 09:59:13  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 09:59:14  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 09:59:14  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://desc.alicdn.com/i7/551/030/558032931248/TB1ohtvciwIL1JjSZFs8qwXFFla.desc%7Cvar%5Edesc%3Bsign%5Ef7aecd98e5466eee3765f8186744b2ec%3Blang%5Egbk%3Bt%5E1507687744 
+2018-05-18 09:59:14  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i7/551/030/558032931248/TB1ohtvciwIL1JjSZFs8qwXFFla.desc%7Cvar%5Edesc%3Bsign%5Ef7aecd98e5466eee3765f8186744b2ec%3Blang%5Egbk%3Bt%5E1507687744] connected successfully! 
+2018-05-18 10:35:46  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189 
+2018-05-18 10:35:49  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 10:35:49  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 10:35:49  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://desc.alicdn.com/i7/551/030/558032931248/TB1ohtvciwIL1JjSZFs8qwXFFla.desc%7Cvar%5Edesc%3Bsign%5Ef7aecd98e5466eee3765f8186744b2ec%3Blang%5Egbk%3Bt%5E1507687744 
+2018-05-18 10:35:49  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i7/551/030/558032931248/TB1ohtvciwIL1JjSZFs8qwXFFla.desc%7Cvar%5Edesc%3Bsign%5Ef7aecd98e5466eee3765f8186744b2ec%3Blang%5Egbk%3Bt%5E1507687744] connected successfully! 
+2018-05-18 10:42:03  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189 
+2018-05-18 10:42:04  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 10:42:05  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 10:42:05  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621 
+2018-05-18 10:42:05  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621] connected successfully! 
+2018-05-18 11:00:25  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189 
+2018-05-18 11:00:26  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 11:00:27  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 11:00:27  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621 
+2018-05-18 11:00:27  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621] connected successfully! 
+2018-05-18 11:01:00  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189 
+2018-05-18 11:01:01  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 11:01:02  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 11:01:02  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621 
+2018-05-18 11:01:02  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621] connected successfully! 
+2018-05-18 11:02:39  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189 
+2018-05-18 11:02:40  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 11:02:41  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 11:02:41  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621 
+2018-05-18 11:02:41  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621] connected successfully! 
+2018-05-18 11:04:14  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189 
+2018-05-18 11:04:15  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 11:04:15  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 11:04:16  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621 
+2018-05-18 11:04:16  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621] connected successfully! 
+2018-05-18 11:08:22  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189 
+2018-05-18 11:08:23  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 11:08:24  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 11:08:24  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621 
+2018-05-18 11:08:24  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621] connected successfully! 
+2018-05-18 11:19:41  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189 
+2018-05-18 11:19:44  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 11:19:44  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 11:19:44  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621 
+2018-05-18 11:19:44  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621] connected successfully! 
+2018-05-18 11:36:24  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189 
+2018-05-18 11:36:26  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 11:36:26  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 11:36:26  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621 
+2018-05-18 11:36:26  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621] connected successfully! 
+2018-05-18 11:40:05  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189 
+2018-05-18 11:40:06  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 11:40:06  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 11:40:06  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621 
+2018-05-18 11:40:06  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621] connected successfully! 
+2018-05-18 11:40:40  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189 
+2018-05-18 11:40:41  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 11:40:41  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 11:40:41  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621 
+2018-05-18 11:40:42  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621] connected successfully! 
+2018-05-18 11:41:59  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189 
+2018-05-18 11:42:00  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 11:42:00  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 11:42:01  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621 
+2018-05-18 11:42:01  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621] connected successfully! 
+2018-05-18 11:42:24  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189 
+2018-05-18 11:42:25  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 11:42:25  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 11:42:25  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621 
+2018-05-18 11:42:25  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621] connected successfully! 
+2018-05-18 11:43:22  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189 
+2018-05-18 11:43:25  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 11:43:25  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 11:43:25  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621 
+2018-05-18 11:43:25  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621] connected successfully! 
+2018-05-18 11:43:47  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189 
+2018-05-18 11:43:48  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 11:43:49  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 11:43:49  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621 
+2018-05-18 11:43:49  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621] connected successfully! 
+2018-05-18 11:44:05  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189 
+2018-05-18 11:44:27  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621 
+2018-05-18 11:44:28  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621] connected successfully! 
+2018-05-18 11:51:50  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189 
+2018-05-18 11:51:51  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 11:51:52  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 11:51:52  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621 
+2018-05-18 11:51:54  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621] connected successfully! 
+2018-05-18 11:53:37  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189 
+2018-05-18 11:53:39  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 11:53:40  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 11:53:40  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621 
+2018-05-18 11:53:40  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621] connected successfully! 
+2018-05-18 11:57:49  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189 
+2018-05-18 11:57:50  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 11:57:50  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 11:57:50  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621 
+2018-05-18 11:57:50  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621] connected successfully! 
+2018-05-18 11:58:48  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189 
+2018-05-18 11:58:51  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 11:58:52  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 11:58:52  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621 
+2018-05-18 11:58:52  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621] connected successfully! 
+2018-05-18 12:53:41  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189 
+2018-05-18 12:53:42  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 12:53:42  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 12:53:43  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621 
+2018-05-18 12:53:43  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621] connected successfully! 
+2018-05-18 12:59:34  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189 
+2018-05-18 12:59:35  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 12:59:56  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621 
+2018-05-18 12:59:57  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621] connected successfully! 
+2018-05-18 13:00:16  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189 
+2018-05-18 13:00:17  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 13:00:17  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 13:00:17  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621 
+2018-05-18 13:00:17  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i4/520/390/526396308065/TB1x5RkOXXXXXavapXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef85d2f4bfa4c2d38b523348b94036f78%3Blang%5Egbk%3Bt%5E1478836621] connected successfully! 
+2018-05-18 14:13:31  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189 
+2018-05-18 14:13:32  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 14:13:41  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 14:13:41  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://desc.alicdn.com/i3/540/530/545535739963/TB1Kfi5PFXXXXavXpXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ee668e33e09b97a9f6c4e4889dd75063a%3Blang%5Egbk%3Bt%5E1487733500 
+2018-05-18 14:13:41  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i3/540/530/545535739963/TB1Kfi5PFXXXXavXpXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ee668e33e09b97a9f6c4e4889dd75063a%3Blang%5Egbk%3Bt%5E1487733500] connected successfully! 
+2018-05-18 14:22:10  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189 
+2018-05-18 14:22:12  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 14:22:13  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 14:22:13  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://desc.alicdn.com/i3/540/530/545535739963/TB1Kfi5PFXXXXavXpXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ee668e33e09b97a9f6c4e4889dd75063a%3Blang%5Egbk%3Bt%5E1487733500 
+2018-05-18 14:22:13  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i3/540/530/545535739963/TB1Kfi5PFXXXXavXpXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ee668e33e09b97a9f6c4e4889dd75063a%3Blang%5Egbk%3Bt%5E1487733500] connected successfully! 
+2018-05-18 14:36:45  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189 
+2018-05-18 14:36:46  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 14:36:46  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 14:36:46  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://desc.alicdn.com/i3/540/530/545535739963/TB1Kfi5PFXXXXavXpXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ee668e33e09b97a9f6c4e4889dd75063a%3Blang%5Egbk%3Bt%5E1487733500 
+2018-05-18 14:36:46  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i3/540/530/545535739963/TB1Kfi5PFXXXXavXpXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ee668e33e09b97a9f6c4e4889dd75063a%3Blang%5Egbk%3Bt%5E1487733500] connected successfully! 
+2018-05-18 14:48:11  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189 
+2018-05-18 14:48:12  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 14:48:12  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 14:48:12  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://desc.alicdn.com/i3/540/530/545535739963/TB1Kfi5PFXXXXavXpXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ee668e33e09b97a9f6c4e4889dd75063a%3Blang%5Egbk%3Bt%5E1487733500 
+2018-05-18 14:48:12  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i3/540/530/545535739963/TB1Kfi5PFXXXXavXpXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ee668e33e09b97a9f6c4e4889dd75063a%3Blang%5Egbk%3Bt%5E1487733500] connected successfully! 
+2018-05-18 15:59:44  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189 
+2018-05-18 15:59:45  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 15:59:46  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 15:59:46  INFO [main] (PlusMethod.java:233) - 截取到的Url为————————————————————————http://desc.alicdn.com/i3/540/530/545535739963/TB1Kfi5PFXXXXavXpXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ee668e33e09b97a9f6c4e4889dd75063a%3Blang%5Egbk%3Bt%5E1487733500 
+2018-05-18 15:59:48  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i3/540/530/545535739963/TB1Kfi5PFXXXXavXpXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ee668e33e09b97a9f6c4e4889dd75063a%3Blang%5Egbk%3Bt%5E1487733500] connected successfully! 
+2018-05-18 16:28:36  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189 
+2018-05-18 16:28:37  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 16:28:38  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 16:28:38  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://desc.alicdn.com/i3/540/530/545535739963/TB1Kfi5PFXXXXavXpXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ee668e33e09b97a9f6c4e4889dd75063a%3Blang%5Egbk%3Bt%5E1487733500 
+2018-05-18 16:28:38  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i3/540/530/545535739963/TB1Kfi5PFXXXXavXpXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ee668e33e09b97a9f6c4e4889dd75063a%3Blang%5Egbk%3Bt%5E1487733500] connected successfully! 
+2018-05-18 16:29:59  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189 
+2018-05-18 16:30:00  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 16:30:01  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=946189] connected successfully! 
+2018-05-18 16:30:01  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://desc.alicdn.com/i3/540/530/545535739963/TB1Kfi5PFXXXXavXpXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ee668e33e09b97a9f6c4e4889dd75063a%3Blang%5Egbk%3Bt%5E1487733500 
+2018-05-18 16:30:01  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i3/540/530/545535739963/TB1Kfi5PFXXXXavXpXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ee668e33e09b97a9f6c4e4889dd75063a%3Blang%5Egbk%3Bt%5E1487733500] connected successfully! 
+2018-05-18 16:46:02  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=461980 
+2018-05-18 16:46:03  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=461980] connected successfully! 
+2018-05-18 16:46:09  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=461980] connected successfully! 
+2018-05-18 16:46:09  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://desc.alicdn.com/i2/540/270/546277470847/TB1NqrhQXXXXXcnXVXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5E0657e1ac78f9eb4bb9ed890aae6a8b58%3Blang%5Egbk%3Bt%5E1490237402 
+2018-05-18 16:46:09  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i2/540/270/546277470847/TB1NqrhQXXXXXcnXVXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5E0657e1ac78f9eb4bb9ed890aae6a8b58%3Blang%5Egbk%3Bt%5E1490237402] connected successfully! 
+2018-05-18 16:51:09  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=931533 
+2018-05-18 16:51:11  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=931533] connected successfully! 
+2018-05-18 16:51:11  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=931533] connected successfully! 
+2018-05-18 16:51:11  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://desc.alicdn.com/i4/560/540/566541699064/TB14ClTbyOYBuNjSsD48qvSkFla.desc%7Cvar%5Edesc%3Bsign%5Ea1238345a9273d0efaad209350c26953%3Blang%5Egbk%3Bt%5E1521793465 
+2018-05-18 16:51:11  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i4/560/540/566541699064/TB14ClTbyOYBuNjSsD48qvSkFla.desc%7Cvar%5Edesc%3Bsign%5Ea1238345a9273d0efaad209350c26953%3Blang%5Egbk%3Bt%5E1521793465] connected successfully! 
+2018-05-18 16:54:38  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=865237 
+2018-05-18 16:54:39  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=865237] connected successfully! 
+2018-05-18 16:54:39  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=865237] connected successfully! 
+2018-05-18 16:54:39  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://desc.alicdn.com/i1/560/790/564793009443/TB1Ovboa7SWBuNjSszd8qveSpla.desc%7Cvar%5Edesc%3Bsign%5E0cd16ea7e8f4549383f12ba97ced876c%3Blang%5Egbk%3Bt%5E1519693638 
+2018-05-18 16:54:39  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i1/560/790/564793009443/TB1Ovboa7SWBuNjSszd8qveSpla.desc%7Cvar%5Edesc%3Bsign%5E0cd16ea7e8f4549383f12ba97ced876c%3Blang%5Egbk%3Bt%5E1519693638] connected successfully! 
+2018-05-18 16:57:05  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=842120 
+2018-05-18 16:57:06  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=842120] connected successfully! 
+2018-05-18 16:57:06  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=842120] connected successfully! 
+2018-05-18 16:57:06  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://desc.alicdn.com/i6/560/260/564262382667/TB1PUyOd6gy_uJjSZPx8qunNpla.desc%7Cvar%5Edesc%3Bsign%5E9b9bbf4ad5cad1ad57bfcecd2faccffb%3Blang%5Egbk%3Bt%5E1516150291 
+2018-05-18 16:57:06  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i6/560/260/564262382667/TB1PUyOd6gy_uJjSZPx8qunNpla.desc%7Cvar%5Edesc%3Bsign%5E9b9bbf4ad5cad1ad57bfcecd2faccffb%3Blang%5Egbk%3Bt%5E1516150291] connected successfully! 
+2018-05-18 16:59:11  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=827023 
+2018-05-18 16:59:12  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=827023] connected successfully! 
+2018-05-18 16:59:12  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=827023] connected successfully! 
+2018-05-18 16:59:12  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://desc.alicdn.com/i4/560/801/563808005486/TB1wVjldAfb_uJjSsD48quqiFla.desc%7Cvar%5Edesc%3Bsign%5Edb6c0a48e25358adf24e96cec54ab9ff%3Blang%5Egbk%3Bt%5E1515400169 
+2018-05-18 16:59:12  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i4/560/801/563808005486/TB1wVjldAfb_uJjSsD48quqiFla.desc%7Cvar%5Edesc%3Bsign%5Edb6c0a48e25358adf24e96cec54ab9ff%3Blang%5Egbk%3Bt%5E1515400169] connected successfully! 
+2018-05-18 17:01:01  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=827023 
+2018-05-18 17:01:02  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=827023] connected successfully! 
+2018-05-18 17:01:03  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=827023] connected successfully! 
+2018-05-18 17:01:03  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://desc.alicdn.com/i4/560/801/563808005486/TB1wVjldAfb_uJjSsD48quqiFla.desc%7Cvar%5Edesc%3Bsign%5Edb6c0a48e25358adf24e96cec54ab9ff%3Blang%5Egbk%3Bt%5E1515400169 
+2018-05-18 17:01:03  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i4/560/801/563808005486/TB1wVjldAfb_uJjSsD48quqiFla.desc%7Cvar%5Edesc%3Bsign%5Edb6c0a48e25358adf24e96cec54ab9ff%3Blang%5Egbk%3Bt%5E1515400169] connected successfully! 
+2018-05-18 17:02:11  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=703565 
+2018-05-18 17:02:12  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=703565] connected successfully! 
+2018-05-18 17:02:12  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=703565] connected successfully! 
+2018-05-18 17:02:12  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://desc.alicdn.com/i4/560/470/560473308753/TB1IXaTXie68eJjSZFB8qvJIpla.desc%7Cvar%5Edesc%3Bsign%5Ef7166d2b251c05af91427b5d9a81e939%3Blang%5Egbk%3Bt%5E1509011313 
+2018-05-18 17:02:12  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i4/560/470/560473308753/TB1IXaTXie68eJjSZFB8qvJIpla.desc%7Cvar%5Edesc%3Bsign%5Ef7166d2b251c05af91427b5d9a81e939%3Blang%5Egbk%3Bt%5E1509011313] connected successfully! 
+2018-05-18 17:02:32  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=703565 
+2018-05-18 17:02:33  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=703565] connected successfully! 
+2018-05-18 17:02:33  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=703565] connected successfully! 
+2018-05-18 17:02:33  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://desc.alicdn.com/i4/560/470/560473308753/TB1IXaTXie68eJjSZFB8qvJIpla.desc%7Cvar%5Edesc%3Bsign%5Ef7166d2b251c05af91427b5d9a81e939%3Blang%5Egbk%3Bt%5E1509011313 
+2018-05-18 17:02:33  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i4/560/470/560473308753/TB1IXaTXie68eJjSZFB8qvJIpla.desc%7Cvar%5Edesc%3Bsign%5Ef7166d2b251c05af91427b5d9a81e939%3Blang%5Egbk%3Bt%5E1509011313] connected successfully! 
+2018-05-18 17:04:56  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=703565 
+2018-05-18 17:05:18  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://desc.alicdn.com/i4/560/470/560473308753/TB1IXaTXie68eJjSZFB8qvJIpla.desc%7Cvar%5Edesc%3Bsign%5Ef7166d2b251c05af91427b5d9a81e939%3Blang%5Egbk%3Bt%5E1509011313 
+2018-05-18 17:05:18  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i4/560/470/560473308753/TB1IXaTXie68eJjSZFB8qvJIpla.desc%7Cvar%5Edesc%3Bsign%5Ef7166d2b251c05af91427b5d9a81e939%3Blang%5Egbk%3Bt%5E1509011313] connected successfully! 
+2018-05-18 17:07:17  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=739080 
+2018-05-18 17:07:20  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=739080] connected successfully! 
+2018-05-18 17:07:20  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=739080] connected successfully! 
+2018-05-18 17:07:20  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://desc.alicdn.com/i3/560/390/561391392890/TB1Hgz0dfDH8KJjy1Xc8qwpdXla.desc%7Cvar%5Edesc%3Bsign%5E1a2e1edef5fc1c9725f90866c46a8fe6%3Blang%5Egbk%3Bt%5E1510807334 
+2018-05-18 17:07:20  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i3/560/390/561391392890/TB1Hgz0dfDH8KJjy1Xc8qwpdXla.desc%7Cvar%5Edesc%3Bsign%5E1a2e1edef5fc1c9725f90866c46a8fe6%3Blang%5Egbk%3Bt%5E1510807334] connected successfully! 
+2018-05-18 17:08:36  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=598134 
+2018-05-18 17:08:37  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=598134] connected successfully! 
+2018-05-18 17:08:37  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=598134] connected successfully! 
+2018-05-18 17:08:37  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://desc.alicdn.com/i7/550/760/556765230423/TB1w9DsSFXXXXcwXVXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5E73754ef6602589c507b955f25f727990%3Blang%5Egbk%3Bt%5E1505185146 
+2018-05-18 17:08:37  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i7/550/760/556765230423/TB1w9DsSFXXXXcwXVXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5E73754ef6602589c507b955f25f727990%3Blang%5Egbk%3Bt%5E1505185146] connected successfully! 
+2018-05-18 17:14:02  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=598134 
+2018-05-18 17:14:05  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=598134] connected successfully! 
+2018-05-18 17:14:06  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=598134] connected successfully! 
+2018-05-18 17:14:06  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://desc.alicdn.com/i7/550/760/556765230423/TB1w9DsSFXXXXcwXVXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5E73754ef6602589c507b955f25f727990%3Blang%5Egbk%3Bt%5E1505185146 
+2018-05-18 17:14:08  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i7/550/760/556765230423/TB1w9DsSFXXXXcwXVXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5E73754ef6602589c507b955f25f727990%3Blang%5Egbk%3Bt%5E1505185146] connected successfully! 
+2018-05-18 17:16:49  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=598134 
+2018-05-18 17:16:50  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=598134] connected successfully! 
+2018-05-18 17:16:50  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=598134] connected successfully! 
+2018-05-18 17:16:50  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://desc.alicdn.com/i7/550/760/556765230423/TB1w9DsSFXXXXcwXVXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5E73754ef6602589c507b955f25f727990%3Blang%5Egbk%3Bt%5E1505185146 
+2018-05-18 17:16:50  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i7/550/760/556765230423/TB1w9DsSFXXXXcwXVXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5E73754ef6602589c507b955f25f727990%3Blang%5Egbk%3Bt%5E1505185146] connected successfully! 
+2018-05-18 17:17:18  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=598134 
+2018-05-18 17:17:19  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=598134] connected successfully! 
+2018-05-18 17:17:19  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=598134] connected successfully! 
+2018-05-18 17:17:19  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://desc.alicdn.com/i7/550/760/556765230423/TB1w9DsSFXXXXcwXVXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5E73754ef6602589c507b955f25f727990%3Blang%5Egbk%3Bt%5E1505185146 
+2018-05-18 17:17:19  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i7/550/760/556765230423/TB1w9DsSFXXXXcwXVXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5E73754ef6602589c507b955f25f727990%3Blang%5Egbk%3Bt%5E1505185146] connected successfully! 
+2018-05-18 17:18:13  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=633113 
+2018-05-18 17:18:15  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=633113] connected successfully! 
+2018-05-18 17:18:16  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=633113] connected successfully! 
+2018-05-18 17:18:16  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://desc.alicdn.com/i4/551/040/558047996899/TB1YxGUc6JTMKJjSZFP8qvHUFla.desc%7Cvar%5Edesc%3Bsign%5E83838ed8308b76fcd4c51a67ce0e7373%3Blang%5Egbk%3Bt%5E1504604359 
+2018-05-18 17:18:16  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i4/551/040/558047996899/TB1YxGUc6JTMKJjSZFP8qvHUFla.desc%7Cvar%5Edesc%3Bsign%5E83838ed8308b76fcd4c51a67ce0e7373%3Blang%5Egbk%3Bt%5E1504604359] connected successfully! 
+2018-05-18 17:20:53  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=633113 
+2018-05-18 17:20:55  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=633113] connected successfully! 
+2018-05-18 17:20:55  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=633113] connected successfully! 
+2018-05-18 17:20:55  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://desc.alicdn.com/i4/551/040/558047996899/TB1YxGUc6JTMKJjSZFP8qvHUFla.desc%7Cvar%5Edesc%3Bsign%5E83838ed8308b76fcd4c51a67ce0e7373%3Blang%5Egbk%3Bt%5E1504604359 
+2018-05-18 17:20:55  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i4/551/040/558047996899/TB1YxGUc6JTMKJjSZFP8qvHUFla.desc%7Cvar%5Edesc%3Bsign%5E83838ed8308b76fcd4c51a67ce0e7373%3Blang%5Egbk%3Bt%5E1504604359] connected successfully! 
+2018-05-18 17:22:28  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://sf.taobao.com/sf_item/554853577155.htm 
+2018-05-18 17:22:29  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/sf_item/554853577155.htm] connected successfully! 
+2018-05-18 17:22:33  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/sf_item/554853577155.htm] connected successfully! 
+2018-05-18 17:22:33  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://desc.alicdn.com/i3/550/850/554853577155/TB1BYe0SXXXXXcXXpXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef54687598ea108bd27c9d23e59815559%3Blang%5Egbk%3Bt%5E1502157699 
+2018-05-18 17:22:33  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i3/550/850/554853577155/TB1BYe0SXXXXXcXXpXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef54687598ea108bd27c9d23e59815559%3Blang%5Egbk%3Bt%5E1502157699] connected successfully! 
+2018-05-18 17:24:20  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://sf.taobao.com/sf_item/554853577155.htm 
+2018-05-18 17:24:21  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/sf_item/554853577155.htm] connected successfully! 
+2018-05-18 17:24:21  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/sf_item/554853577155.htm] connected successfully! 
+2018-05-18 17:24:21  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://desc.alicdn.com/i3/550/850/554853577155/TB1BYe0SXXXXXcXXpXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef54687598ea108bd27c9d23e59815559%3Blang%5Egbk%3Bt%5E1502157699 
+2018-05-18 17:24:21  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i3/550/850/554853577155/TB1BYe0SXXXXXcXXpXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef54687598ea108bd27c9d23e59815559%3Blang%5Egbk%3Bt%5E1502157699] connected successfully! 
+2018-05-18 17:25:21  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://sf.taobao.com/sf_item/554853577155.htm 
+2018-05-18 17:25:22  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/sf_item/554853577155.htm] connected successfully! 
+2018-05-18 17:25:23  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/sf_item/554853577155.htm] connected successfully! 
+2018-05-18 17:25:23  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://desc.alicdn.com/i3/550/850/554853577155/TB1BYe0SXXXXXcXXpXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef54687598ea108bd27c9d23e59815559%3Blang%5Egbk%3Bt%5E1502157699 
+2018-05-18 17:25:23  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i3/550/850/554853577155/TB1BYe0SXXXXXcXXpXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef54687598ea108bd27c9d23e59815559%3Blang%5Egbk%3Bt%5E1502157699] connected successfully! 
+2018-05-18 17:25:47  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://sf.taobao.com/sf_item/554853577155.htm 
+2018-05-18 17:25:48  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/sf_item/554853577155.htm] connected successfully! 
+2018-05-18 17:25:49  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/sf_item/554853577155.htm] connected successfully! 
+2018-05-18 17:25:49  INFO [main] (PlusMethod.java:217) - 截取到的Url为————————————————————————http://desc.alicdn.com/i3/550/850/554853577155/TB1BYe0SXXXXXcXXpXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef54687598ea108bd27c9d23e59815559%3Blang%5Egbk%3Bt%5E1502157699 
+2018-05-18 17:25:49  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i3/550/850/554853577155/TB1BYe0SXXXXXcXXpXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5Ef54687598ea108bd27c9d23e59815559%3Blang%5Egbk%3Bt%5E1502157699] connected successfully! 
+2018-05-18 17:31:22  INFO [main] (PlusMethod.java:220) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580 
+2018-05-18 17:31:23  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580] connected successfully! 
+2018-05-18 17:31:23  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580] connected successfully! 
+2018-05-18 17:31:23  INFO [main] (PlusMethod.java:220) - 截取到的Url为————————————————————————http://desc.alicdn.com/i6/550/570/555575337644/TB1blX8SpXXXXXtXVXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5E0922a86b9b032d7a07b2f028b24ac6f0%3Blang%5Egbk%3Bt%5E1503280021 
+2018-05-18 17:31:23  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i6/550/570/555575337644/TB1blX8SpXXXXXtXVXX8qtpFXlX.desc%7Cvar%5Edesc%3Bsign%5E0922a86b9b032d7a07b2f028b24ac6f0%3Blang%5Egbk%3Bt%5E1503280021] connected successfully! 
+2018-05-18 17:38:35  INFO [main] (PlusMethod.java:220) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580 
+2018-05-18 17:38:36  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580] connected successfully! 
+2018-05-18 17:38:36  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580] connected successfully! 
+2018-05-18 17:38:36  INFO [main] (PlusMethod.java:220) - 截取到的Url为————————————————————————http://desc.alicdn.com/i5/560/210/566210645098/TB1yEGNeH9YBuNjy0Fg8qwxcXla.desc%7Cvar%5Edesc%3Bsign%5Eebdd244cefc736e270cd033bdb3e821c%3Blang%5Egbk%3Bt%5E1524542101 
+2018-05-18 17:38:36  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i5/560/210/566210645098/TB1yEGNeH9YBuNjy0Fg8qwxcXla.desc%7Cvar%5Edesc%3Bsign%5Eebdd244cefc736e270cd033bdb3e821c%3Blang%5Egbk%3Bt%5E1524542101] connected successfully! 
+2018-05-18 17:42:53  INFO [main] (PlusMethod.java:220) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580 
+2018-05-18 17:42:54  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580] connected successfully! 
+2018-05-18 17:42:55  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580] connected successfully! 
+2018-05-18 17:42:55  INFO [main] (PlusMethod.java:220) - 截取到的Url为————————————————————————http://desc.alicdn.com/i5/560/210/566210645098/TB1yEGNeH9YBuNjy0Fg8qwxcXla.desc%7Cvar%5Edesc%3Bsign%5Eebdd244cefc736e270cd033bdb3e821c%3Blang%5Egbk%3Bt%5E1524542101 
+2018-05-18 17:42:55  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i5/560/210/566210645098/TB1yEGNeH9YBuNjy0Fg8qwxcXla.desc%7Cvar%5Edesc%3Bsign%5Eebdd244cefc736e270cd033bdb3e821c%3Blang%5Egbk%3Bt%5E1524542101] connected successfully! 
+2018-05-18 17:44:14  INFO [main] (PlusMethod.java:220) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580 
+2018-05-18 17:44:17  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580] connected successfully! 
+2018-05-18 17:44:17  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580] connected successfully! 
+2018-05-18 17:44:17  INFO [main] (PlusMethod.java:220) - 截取到的Url为————————————————————————http://desc.alicdn.com/i4/560/820/566822499927/TB1nowBbTmWBKNjSZFB8qtxUFla.desc%7Cvar%5Edesc%3Bsign%5Efc2e997a9c4fcd66fc5d980d85cae5f4%3Blang%5Egbk%3Bt%5E1522221447 
+2018-05-18 17:44:17  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i4/560/820/566822499927/TB1nowBbTmWBKNjSZFB8qtxUFla.desc%7Cvar%5Edesc%3Bsign%5Efc2e997a9c4fcd66fc5d980d85cae5f4%3Blang%5Egbk%3Bt%5E1522221447] connected successfully! 
+2018-05-18 17:48:54  INFO [main] (PlusMethod.java:220) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580 
+2018-05-18 17:48:57  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580] connected successfully! 
+2018-05-18 17:48:58  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580] connected successfully! 
+2018-05-18 17:48:58  INFO [main] (PlusMethod.java:220) - 截取到的Url为————————————————————————http://desc.alicdn.com/i8/560/011/565018179645/TB1oumrXStYBeNjSspk8qvU8Vla.desc%7Cvar%5Edesc%3Bsign%5Ebd604fbb807678b6c2267c1a9ee233c3%3Blang%5Egbk%3Bt%5E1517802275 
+2018-05-18 17:49:00  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i8/560/011/565018179645/TB1oumrXStYBeNjSspk8qvU8Vla.desc%7Cvar%5Edesc%3Bsign%5Ebd604fbb807678b6c2267c1a9ee233c3%3Blang%5Egbk%3Bt%5E1517802275] connected successfully! 
+2018-05-18 17:50:29  INFO [main] (PlusMethod.java:220) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580 
+2018-05-18 17:50:31  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580] connected successfully! 
+2018-05-18 17:50:31  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580] connected successfully! 
+2018-05-18 17:50:31  INFO [main] (PlusMethod.java:220) - 截取到的Url为————————————————————————http://desc.alicdn.com/i8/560/011/565018179645/TB1oumrXStYBeNjSspk8qvU8Vla.desc%7Cvar%5Edesc%3Bsign%5Ebd604fbb807678b6c2267c1a9ee233c3%3Blang%5Egbk%3Bt%5E1517802275 
+2018-05-18 17:50:31  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i8/560/011/565018179645/TB1oumrXStYBeNjSspk8qvU8Vla.desc%7Cvar%5Edesc%3Bsign%5Ebd604fbb807678b6c2267c1a9ee233c3%3Blang%5Egbk%3Bt%5E1517802275] connected successfully! 
+2018-05-18 17:51:06  INFO [main] (PlusMethod.java:220) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580 
+2018-05-18 17:51:09  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580] connected successfully! 
+2018-05-18 17:51:09  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580] connected successfully! 
+2018-05-18 17:51:09  INFO [main] (PlusMethod.java:220) - 截取到的Url为————————————————————————http://desc.alicdn.com/i8/560/011/565018179645/TB1oumrXStYBeNjSspk8qvU8Vla.desc%7Cvar%5Edesc%3Bsign%5Ebd604fbb807678b6c2267c1a9ee233c3%3Blang%5Egbk%3Bt%5E1517802275 
+2018-05-18 17:51:11  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i8/560/011/565018179645/TB1oumrXStYBeNjSspk8qvU8Vla.desc%7Cvar%5Edesc%3Bsign%5Ebd604fbb807678b6c2267c1a9ee233c3%3Blang%5Egbk%3Bt%5E1517802275] connected successfully! 
+2018-05-18 17:52:41  INFO [main] (PlusMethod.java:220) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580 
+2018-05-18 17:52:43  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580] connected successfully! 
+2018-05-18 17:52:43  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580] connected successfully! 
+2018-05-18 17:52:43  INFO [main] (PlusMethod.java:220) - 截取到的Url为————————————————————————http://desc.alicdn.com/i8/560/011/565018723370/TB1OUn0XgKTBuNkSne18quJoXla.desc%7Cvar%5Edesc%3Bsign%5Eef8e3e1bd954cb22b8d0428218254768%3Blang%5Egbk%3Bt%5E1517801802 
+2018-05-18 17:52:43  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i8/560/011/565018723370/TB1OUn0XgKTBuNkSne18quJoXla.desc%7Cvar%5Edesc%3Bsign%5Eef8e3e1bd954cb22b8d0428218254768%3Blang%5Egbk%3Bt%5E1517801802] connected successfully! 
+2018-05-18 17:56:25  INFO [main] (PlusMethod.java:220) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580 
+2018-05-18 17:56:26  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580] connected successfully! 
+2018-05-18 17:56:27  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580] connected successfully! 
+2018-05-18 17:56:27  INFO [main] (PlusMethod.java:220) - 截取到的Url为————————————————————————http://desc.alicdn.com/i2/560/701/566709524140/TB1m9G5cFkoBKNjSZFk8qv4tFla.desc%7Cvar%5Edesc%3Bsign%5Ee2bc971e9ef38bf934ad888faa27607f%3Blang%5Egbk%3Bt%5E1523233314 
+2018-05-18 17:56:27  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i2/560/701/566709524140/TB1m9G5cFkoBKNjSZFk8qv4tFla.desc%7Cvar%5Edesc%3Bsign%5Ee2bc971e9ef38bf934ad888faa27607f%3Blang%5Egbk%3Bt%5E1523233314] connected successfully! 
+2018-05-18 17:58:49  INFO [main] (PlusMethod.java:220) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580 
+2018-05-18 17:58:50  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580] connected successfully! 
+2018-05-18 17:58:51  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580] connected successfully! 
+2018-05-18 17:58:51  INFO [main] (PlusMethod.java:220) - 截取到的Url为————————————————————————http://desc.alicdn.com/i2/560/701/566709524140/TB1m9G5cFkoBKNjSZFk8qv4tFla.desc%7Cvar%5Edesc%3Bsign%5Ee2bc971e9ef38bf934ad888faa27607f%3Blang%5Egbk%3Bt%5E1523233314 
+2018-05-18 17:58:51  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i2/560/701/566709524140/TB1m9G5cFkoBKNjSZFk8qv4tFla.desc%7Cvar%5Edesc%3Bsign%5Ee2bc971e9ef38bf934ad888faa27607f%3Blang%5Egbk%3Bt%5E1523233314] connected successfully! 
+2018-05-18 17:59:31  INFO [main] (PlusMethod.java:220) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580 
+2018-05-18 17:59:32  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580] connected successfully! 
+2018-05-18 17:59:32  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580] connected successfully! 
+2018-05-18 17:59:32  INFO [main] (PlusMethod.java:220) - 截取到的Url为————————————————————————http:/desc.alicdn.com/i2/560/130/565136449068/TB1ZqvDaWSWBuNjSsrb8qu0mVla.desc%7Cvar%5Edesc%3Bsign%5E4cb069c6a9c9ea099b82fa09d8bd3c43%3Blang%5Egbk%3Bt%5E1519702972 
+2018-05-18 17:59:32  INFO [main] (OkHttpGet.java:152) - 200,[http:/desc.alicdn.com/i2/560/130/565136449068/TB1ZqvDaWSWBuNjSsrb8qu0mVla.desc%7Cvar%5Edesc%3Bsign%5E4cb069c6a9c9ea099b82fa09d8bd3c43%3Blang%5Egbk%3Bt%5E1519702972] connected successfully! 
+2018-05-18 18:02:29  INFO [main] (PlusMethod.java:220) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580 
+2018-05-18 18:02:33  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580] connected successfully! 
+2018-05-18 18:02:33  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580] connected successfully! 
+2018-05-18 18:02:33  INFO [main] (PlusMethod.java:220) - 截取到的Url为————————————————————————http:/desc.alicdn.com/i2/560/130/565136449068/TB1ZqvDaWSWBuNjSsrb8qu0mVla.desc%7Cvar%5Edesc%3Bsign%5E4cb069c6a9c9ea099b82fa09d8bd3c43%3Blang%5Egbk%3Bt%5E1519702972 
+2018-05-18 18:02:33  INFO [main] (OkHttpGet.java:152) - 200,[http:/desc.alicdn.com/i2/560/130/565136449068/TB1ZqvDaWSWBuNjSsrb8qu0mVla.desc%7Cvar%5Edesc%3Bsign%5E4cb069c6a9c9ea099b82fa09d8bd3c43%3Blang%5Egbk%3Bt%5E1519702972] connected successfully! 
+2018-05-18 18:05:43  INFO [main] (PlusMethod.java:220) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580 
+2018-05-18 18:05:44  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580] connected successfully! 
+2018-05-18 18:05:45  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580] connected successfully! 
+2018-05-18 18:05:45  INFO [main] (PlusMethod.java:220) - 截取到的Url为————————————————————————http:/desc.alicdn.com/i2/560/130/565136449068/TB1ZqvDaWSWBuNjSsrb8qu0mVla.desc%7Cvar%5Edesc%3Bsign%5E4cb069c6a9c9ea099b82fa09d8bd3c43%3Blang%5Egbk%3Bt%5E1519702972 
+2018-05-18 18:05:45  INFO [main] (OkHttpGet.java:152) - 200,[http:/desc.alicdn.com/i2/560/130/565136449068/TB1ZqvDaWSWBuNjSsrb8qu0mVla.desc%7Cvar%5Edesc%3Bsign%5E4cb069c6a9c9ea099b82fa09d8bd3c43%3Blang%5Egbk%3Bt%5E1519702972] connected successfully! 
+2018-05-18 18:06:34  INFO [main] (PlusMethod.java:220) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580 
+2018-05-18 18:06:35  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580] connected successfully! 
+2018-05-18 18:06:36  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580] connected successfully! 
+2018-05-18 18:06:36  INFO [main] (PlusMethod.java:220) - 截取到的Url为————————————————————————http:/desc.alicdn.com/i2/560/130/565136449068/TB1ZqvDaWSWBuNjSsrb8qu0mVla.desc%7Cvar%5Edesc%3Bsign%5E4cb069c6a9c9ea099b82fa09d8bd3c43%3Blang%5Egbk%3Bt%5E1519702972 
+2018-05-18 18:06:36  INFO [main] (OkHttpGet.java:152) - 200,[http:/desc.alicdn.com/i2/560/130/565136449068/TB1ZqvDaWSWBuNjSsrb8qu0mVla.desc%7Cvar%5Edesc%3Bsign%5E4cb069c6a9c9ea099b82fa09d8bd3c43%3Blang%5Egbk%3Bt%5E1519702972] connected successfully! 
+2018-05-18 18:08:38  INFO [main] (PlusMethod.java:221) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580 
+2018-05-18 18:08:39  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580] connected successfully! 
+2018-05-18 18:08:40  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580] connected successfully! 
+2018-05-18 18:08:40  INFO [main] (PlusMethod.java:221) - 截取到的Url为————————————————————————http://desc.alicdn.com/i1/560/630/563637678263/TB1iLqAdkfb_uJkHFqD8qtVIVla.desc%7Cvar%5Edesc%3Bsign%5Ebcb805d7b49e9d3988dd31f360f82451%3Blang%5Egbk%3Bt%5E1514939488 
+2018-05-18 18:08:40  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i1/560/630/563637678263/TB1iLqAdkfb_uJkHFqD8qtVIVla.desc%7Cvar%5Edesc%3Bsign%5Ebcb805d7b49e9d3988dd31f360f82451%3Blang%5Egbk%3Bt%5E1514939488] connected successfully! 
+2018-05-18 18:09:52  INFO [main] (PlusMethod.java:221) - 截取到的Url为————————————————————————http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580 
+2018-05-18 18:09:53  INFO [main] (OkHttpGet.java:115) - 301,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580] connected successfully! 
+2018-05-18 18:09:53  INFO [main] (OkHttpGet.java:152) - 200,[http://sf.taobao.com/json/get_notice_attach.htm?project_id=574580] connected successfully! 
+2018-05-18 18:09:53  INFO [main] (PlusMethod.java:221) - 截取到的Url为————————————————————————http://desc.alicdn.com/i6/560/430/563436234012/TB10Ye0dJHO8KJjSZFt8qwhfXla.desc%7Cvar%5Edesc%3Bsign%5E9ab6c2fa56c3dee48230e535f956cfbc%3Blang%5Egbk%3Bt%5E1514432452 
+2018-05-18 18:09:53  INFO [main] (OkHttpGet.java:152) - 200,[http://desc.alicdn.com/i6/560/430/563436234012/TB10Ye0dJHO8KJjSZFt8qwhfXla.desc%7Cvar%5Edesc%3Bsign%5E9ab6c2fa56c3dee48230e535f956cfbc%3Blang%5Egbk%3Bt%5E1514432452] connected successfully! 

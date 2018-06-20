@@ -65,8 +65,9 @@ public class PlusMethod extends com.toptime.webspider.core.tools.PlusMethod{
     		logger.info("进入JMJLSJZW方法-----------------------------");
     		String s = "http:"+ mapData.get("#DREFIELD JMJLSJZW").trim();
     		String urlGetresponse = UrlGetresponse(s, "date:\"(.*?)\"", "JMJLSJ");
+    		String urlGetresponse2 = UrlGetresponse(s, "records:\\[{(.*?)},", "JMJLSJZW");
     		mapData.put("#DREFIELD JMJLSJ", urlGetresponse);
-    		mapData.put("#DREFIELD JMJLSJZW", UrlGetresponse(s));
+    		mapData.put("#DREFIELD JMJLSJZW", urlGetresponse2);
     		
     	}
     	//对标的名称进行过滤
@@ -111,6 +112,7 @@ public class PlusMethod extends com.toptime.webspider.core.tools.PlusMethod{
     	        PlusMethod plusMethod2=new PlusMethod();
 				String urlGetresponse = plusMethod2.UrlGetresponse(s);
 				String replaceAll = urlGetresponse.replaceAll("<[^>]*?>", "");
+				String replaceAll21 = replaceAll.replaceAll("[\\s]+", "");
 				replaceAll = StringEscapeUtils.unescapeJava(replaceAll);
 				replaceAll = StringEscapeUtils.unescapeHtml4(replaceAll);
 				mapData.put("#DREFIELD BDWZW",urlGetresponse);
@@ -123,8 +125,12 @@ public class PlusMethod extends com.toptime.webspider.core.tools.PlusMethod{
 			        map.put("TDXZ","(土地|规划|地类)(用途及性质|级别为|用途)[\\W]*?[\\s]+([\\u4e00-\\u9fa5]{1,})[\\s]");//土地性质
 			        map.put("TDYT","(土地|地类)[\\W]*?(用途|)[\\W]*?[\\s]+([\\u4e00-\\u9fa5]{1,})[\\s]");//土地用途
 			        map.put("QLXZQK","权利限制情况(.*?)</tr>");//权利限制情况
+			        map.put("BYSX","(用途|性质)[\\W]*?([\\s\\S]*?)(</tr>|\\r|\\n)");//土地用途
+			        map.put("HKQK","过户情况(.*?)</tr>@@@@@户口情况(.*?)</tr>");//HKQK户口情况
+			        map.put("YS","钥匙<[^>]*?>(.*?)</tr>@@@@@钥&nbsp;&nbsp;匙<[^>]*?>(.*?)</tr>@@@@@钥.*?匙(.*?)</tr>");//YS钥匙情况
+			        map.put("ZLQK","租赁情况(.*?)</tr>@@@@@租赁(.*?)</tr>");//ZLQK租赁情况
 			        //房屋插件
-			        map.put("JZMJ","建筑[^0-9]{0,3}面积[^0-9]{0,3}([0-9.,，]{1,12})(㎡|平|米|m2|)@@@@@房屋[^0-9]{0,3}面积[^0-9]{0,3}([0-9.,，]{1,12})(㎡|平|米|m2|)@@@@@住房[^0-9]{0,3}面积[^0-9]{0,3}([0-9.,，]{1,12})(㎡|平|米|m2|)");//面积
+			        map.put("JZMJ","建筑[^0-9]{0,3}面积[^0-9]{0,3}([0-9.,，]{1,12})(㎡|平|米|m2)@@@@@房屋[^0-9]{0,3}面积[^0-9]{0,3}([0-9.,，]{1,12})(㎡|平|米|m2)@@@@@住房[^0-9]{0,3}面积[^0-9]{0,3}([0-9.,，]{1,12})(㎡|平|米|m2)");//面积
 			        //土地插件
 			        map.put("SYTDMJ","[土|宗]地[^0-9]{0,3}面积[^0-9]{0,3}([0-9.,，]{1,12})(㎡|平|米|m2|)@@@@@使用权[^0-9]{0,3}面积[^0-9]{0,3}([0-9.,，]{1,12})(㎡|平|米|m2|)");
 			        //补充面积
@@ -143,7 +149,6 @@ public class PlusMethod extends com.toptime.webspider.core.tools.PlusMethod{
 			            PlusMethod plusMethod  =  new PlusMethod();
 			            //使用Map.Entry中的方法获取键和值
 			            //判断value的值，如果包含@@@@@分隔符则进行循环截取。
-			            
 			            bdxz = forEatch(urlGetresponse, plusMethod, "BDXZ", map.get("BDXZ"));
 			            String key = me.getKey();
 			            String value = me.getValue();
@@ -190,30 +195,17 @@ public class PlusMethod extends com.toptime.webspider.core.tools.PlusMethod{
 							}
 							break;
 						case "TDXZ":
-							String forEatch2 = forEatch(replaceAll, plusMethod, key, value);
-							if (forEatch2.length()==0) {
-								forEatch2 =bdxz;
-							}
-							if (forEatch2.length()==0) {
-								forEatch2 =replaceAll;
-							}
-							 abc = TdxzAndFwytUtils.fetchTdxz(forEatch2);
+							 abc = TdxzAndFwytUtils.fetchTdxz(replaceAll21);
 							break;
 						case "TDYT":
-							String forEatch3 = forEatch(replaceAll, plusMethod, key, value);
-							abc = TdxzAndFwytUtils.fetchFwyt(forEatch(forEatch3, plusMethod, key, value));
+							abc = TdxzAndFwytUtils.fetchFwyt(replaceAll21);
 							break;
 						case "FWYT":
-							String forEatch = forEatch(replaceAll, plusMethod, key, value);
-							mapData.put("#DREFIELD YSFWYT", forEatch);
-							if (forEatch.length()==0) {
-								forEatch =bdxz;
-							}
-							if (forEatch.length()==0) {
-								forEatch =replaceAll;
-							}
-							abc = TdxzAndFwytUtils.fetchFwyt(forEatch);
+							abc = TdxzAndFwytUtils.fetchFwyt(replaceAll21);
 							break;
+						case "ZLQK":
+			                abc = forEatch(urlGetresponse, plusMethod, key, value).replace("情况", "");
+			                break;
 						default:
 							abc = forEatch(urlGetresponse, plusMethod, key, value);
 							break;
@@ -283,6 +275,7 @@ public class PlusMethod extends com.toptime.webspider.core.tools.PlusMethod{
         String valuestr = "";
         if (m.find()) {
             valuestr = m.group(1).trim();
+            
             valuestr = valuestr.replaceAll("<[^>]*?>", " ").replace("&nbsp;", "").replaceAll("\\s+", " ").trim();
             valuestr = StringEscapeUtils.unescapeJava(valuestr);
             valuestr = StringEscapeUtils.unescapeHtml4(valuestr);
@@ -301,9 +294,20 @@ public class PlusMethod extends com.toptime.webspider.core.tools.PlusMethod{
     	Pattern p = Pattern.compile(rex, 2);
         Matcher m = p.matcher(html);
         String valuestr = "";
+        String valuestr2 = "";
         if (m.find()) {
             valuestr = m.group().trim();
-            valuestr = valuestr.replaceAll("<[^>]*?>", "").replace("&nbsp;", "").trim();
+            if (valuestr.contains("&radic;")) {
+                System.out.println("进入打钩判断");
+                p = Pattern.compile("[\\u4e00-\\u9fa5]{1,}\\W*?&radic;\\W+?");
+                m = p.matcher(valuestr);
+                while (m.find()) {
+                    
+                    valuestr2 += m.group().trim();
+                }
+                valuestr = valuestr2;
+            }
+            valuestr = valuestr.replaceAll("<[^>]*?>", " ").replaceAll("[\\s]+", " ").replace("&nbsp;", "").trim();
             valuestr = StringEscapeUtils.unescapeJava(valuestr);
             valuestr = StringEscapeUtils.unescapeHtml4(valuestr);
             //System.out.println("匹配的正则为-----"+rex+"过滤之后的值为----"+valuestr);
@@ -337,6 +341,26 @@ public class PlusMethod extends com.toptime.webspider.core.tools.PlusMethod{
     	return a.replaceFirst("@@@", "");
     	
     }
+    /*
+     * 根据URL进行正则匹配 循环匹配 取全部的属性值
+     */
+    public String Rexgethtmlxh2(String html,String rex,String name) {
+        Pattern p = Pattern.compile(rex, 2);
+        Matcher m = p.matcher(html);
+        String valuestr = "";
+        String a ="";
+        while (m.find()) {
+            //System.out.println("选用进入面积的正则表达式~~~"+rex);
+            valuestr = m.group().trim();
+            valuestr = valuestr.replaceAll("<[^>]*?>", "").replace("&nbsp;", "").trim();
+            valuestr = StringEscapeUtils.unescapeJava(valuestr);
+            valuestr = StringEscapeUtils.unescapeHtml4(valuestr);
+            //System.out.println("匹配的正则为-----"+rex+"过滤之后的值为----"+valuestr);
+            a+="@@@"+valuestr;
+        }
+        return a.replaceFirst("@@@", "");
+        
+    }
 	/**
 	 * @param urlGetresponse
 	 * @param plusMethod
@@ -353,7 +377,9 @@ public class PlusMethod extends com.toptime.webspider.core.tools.PlusMethod{
 					a =plusMethod.Rexgethtmlxh(urlGetresponse, values[i], key);
 				}else if (key.equals("TDYT")|key.equals("FWYT")|key.equals("TDXZ")) {
 					a =plusMethod.Rexgethtml2(urlGetresponse, values[i], key);
-				}else {
+				}else if (key.equals("BYSX")) {
+				    a =plusMethod.Rexgethtmlxh2(urlGetresponse, values[i], key);
+                }else {
 					a = plusMethod.Rexgethtml(urlGetresponse,values[i],key);
 				}
 				if (a.length()>0) {
@@ -368,7 +394,9 @@ public class PlusMethod extends com.toptime.webspider.core.tools.PlusMethod{
 				a =plusMethod.Rexgethtmlxh(urlGetresponse, value, key);
 			}else if (key.equals("TDYT")|key.equals("FWYT")|key.equals("TDXZ")) {
 				a =plusMethod.Rexgethtml2(urlGetresponse, value, key);
-			}else {
+			}else if (key.equals("BYSX")) {
+                a =plusMethod.Rexgethtmlxh2(urlGetresponse, value, key);
+            }else {
 				a = plusMethod.Rexgethtml(urlGetresponse,value,key);
 			}
 			
@@ -377,7 +405,7 @@ public class PlusMethod extends com.toptime.webspider.core.tools.PlusMethod{
 	}
     public static void main(String[] args) {
     	String JMGG="";
-    	String ss = "http:"+"//sf.taobao.com/json/get_notice_attach.htm?project_id=946189";
+    	String ss = "http:"+"//sf.taobao.com/json/get_notice_attach.htm?project_id=574580";
 		 PlusMethod plusMethod3=new PlusMethod();
 			String urlGetresponse2 = plusMethod3.UrlGetresponse(ss);
 			String replaceAll2 = urlGetresponse2.replaceAll("<[^>]*?>", "");
@@ -386,23 +414,33 @@ public class PlusMethod extends com.toptime.webspider.core.tools.PlusMethod{
 			JMGG = replaceAll2;
     	Map<String, String> mapData =new HashMap<String, String>();
         //拿到想要访问的URL 并且对其进行访问。
-        String s = "http:"+"//desc.alicdn.com/i8/560/080/567087098513/TB1fzcXcXooBKNjSZFP8qta2Xla.desc%7Cvar%5Edesc%3Bsign%5E1a534fad13ab26b02fb38abe5d660506%3Blang%5Egbk%3Bt%5E1522747916";
+        String s = "http:"+"//desc.alicdn.com/i6/560/430/563436234012/TB10Ye0dJHO8KJjSZFt8qwhfXla.desc%7Cvar%5Edesc%3Bsign%5E9ab6c2fa56c3dee48230e535f956cfbc%3Blang%5Egbk%3Bt%5E1514432452";
         //创建集合，存入元素
         PlusMethod plusMethod2 = new PlusMethod();
         String urlGetresponse = plusMethod2.UrlGetresponse(s);
         String replaceAll = urlGetresponse.replaceAll("<[^>]*?>", " ").replace("&nbsp;", " ");
-        System.out.println("处理之后的字段的数据~~~~~"+replaceAll);
+        String replaceAll21 = replaceAll.replaceAll("[\\s]+", "");
+        //System.out.println("处理之后的字段的数据~~~~~"+replaceAll);
         String bdxz ="";
+        //String bysx ="";
         Map<String,String> map = new HashMap<String,String>();
         map.put("QZQK","权证情况(.*?)</tr>");//权证情况
         map.put("BDSUR","所有人(.*?)</tr>@@@@@所 有 人([\\s\\S]*?)</tr>@@@@@所有权人([\\s\\S]*?)</tr>");//标的所有人
-        map.put("FWYT","(房屋|规划|设计)[\\W]*?用途[\\W]*?[\\s]+([\\u4e00-\\u9fa5]{1,})[\\s]");//房屋用途
-        map.put("BDXZ","标的物现状(.*?)<strong>@@@@@拍品现状([\\s\\S]*?)权利限制情况@@@@@拍品现状([\\s\\S]*?)权利限制@@@@@标的现状([\\s\\S]*?)权利限制@@@@@标的现状([\\s\\S]*?)</tr>");//标的现状
-        map.put("TDXZ","(土地|规划|地类)(用途及性质|级别为|用途)[\\W]*?[\\s]+([\\u4e00-\\u9fa5]{1,})[\\s]");//土地性质
-        map.put("TDYT","(土地|地类)[\\W]*?(用途|)[\\W]*?[\\s]+([\\u4e00-\\u9fa5]{1,})[\\s]");//土地用途
+        //过时的方法，之前是匹配标签过滤之后的数据存在匹配不准的情况现在采用匹配标签之前的数据
+        //map.put("FWYT","(房屋|规划|设计)[\\W]*?用途[\\W]*?[\\s]+([\\u4e00-\\u9fa5]{1,})[\\s]");//房屋用途
+        map.put("FWYT","(房屋|规划|设计|使用)[\\u4e00-\\u9fa5]*?(用途|性质)[\\W]*?([\\s\\S]*?)(</tr>|\\r|\\n)");//房屋用途
+        map.put("TDXZ","(土地|规划|地类)(用途及性质|用途|性质|级别)[\\W]*?([\\s\\S]*?)(</tr>|\\r|\\n)]");//土地性质
+        map.put("TDYT","(土地|地类|规划)[\\u4e00-\\u9fa5]*?(用途|性质|级别)[\\W]*?([\\s\\S]*?)(</tr>|\\r|\\n)");//土地用途
+        //备用用途及性质
+        map.put("BYSX","(用途|性质)[\\W]*?([\\s\\S]*?)(</tr>|\\r|\\n)");//土地用途
+        
+        map.put("BDXZ","标的物现状(.*?)<strong>@@@@@拍品现状([\\s\\S]*?)权利限制情况@@@@@拍品现状([\\s\\S]*?)权利限制@@@@@标的现状([\\s\\S]*?)权利限制@@@@@标的现状([\\s\\S]*?)</tr>@@@@@情况说明</span>([\\s\\S]*?)</tr>");//标的现状
         map.put("QLXZQK","权利限制情况(.*?)</tr>");//权利限制情况
+        map.put("HKQK","过户情况(.*?)</tr>@@@@@户口情况(.*?)</tr>");//HKQK户口情况
+        map.put("YS","钥匙<[^>]*?>(.*?)</tr>@@@@@钥&nbsp;&nbsp;匙<[^>]*?>(.*?)</tr>@@@@@钥.*?匙(.*?)</tr>");//YS钥匙情况
+        map.put("ZLQK","租赁情况(.*?)</tr>@@@@@租赁(.*?)</tr>");//ZLQK租赁情况
         //房屋插件
-        map.put("JZMJ","建筑[^0-9]{0,3}面积[^0-9]{0,3}([0-9.]{1,9})(㎡|米|m2|)@@@@@房屋[^0-9]{0,3}面积[^0-9]{0,3}([0-9.]{1,9})(㎡|米|m2|)@@@@@住房[^0-9]{0,3}面积[^0-9]{0,3}([0-9.]{1,9})(㎡|米|m2|)");//面积
+        map.put("JZMJ","建筑[^0-9]{0,3}面积[^0-9]{0,3}([0-9.]{1,9})(㎡|米|m2)@@@@@房屋[^0-9]{0,3}面积[^0-9]{0,3}([0-9.]{1,9})(㎡|米|m2)@@@@@住房[^0-9]{0,3}面积[^0-9]{0,3}([0-9.]{1,9})(㎡|米|m2)");//面积
         //土地插件
         map.put("SYTDMJ","[土|宗]地[^0-9]{0,3}面积[^0-9]{0,3}([0-9.,]{1,9})(㎡|米|m2|)@@@@@使用权[^0-9]{0,3}面积[^0-9]{0,3}([0-9.,]{1,9})(㎡|米|m2|)");
         //补充面积
@@ -424,6 +462,7 @@ public class PlusMethod extends com.toptime.webspider.core.tools.PlusMethod{
             //判断value的值，如果包含@@@@@分隔符则进行循环截取。
             
             bdxz = forEatch(urlGetresponse, plusMethod, "BDXZ", map.get("BDXZ"));
+            //bysx = forEatch(urlGetresponse, plusMethod, "BYSX", map.get("BYSX"));
             String key = me.getKey();
             String value = me.getValue();
             String abc ="";
@@ -450,32 +489,17 @@ public class PlusMethod extends com.toptime.webspider.core.tools.PlusMethod{
 				}
 				break;
 			case "TDXZ":
-				String forEatch2 = forEatch(replaceAll, plusMethod, key, value);
-				if (forEatch2.length()==0) {
-					forEatch2 =bdxz;
-				}
-				if (forEatch2.length()==0) {
-					forEatch2 =replaceAll;
-				}
-				System.out.println("处置之前土地性质数据~~~~~~~~"+forEatch2);
-				 abc = TdxzAndFwytUtils.fetchTdxz(forEatch2);
+				 abc = TdxzAndFwytUtils.fetchTdxz(replaceAll21);
 				break;
 			case "TDYT":
-				String forEatch3 = forEatch(replaceAll, plusMethod, key, value);
-				System.out.println("处置之前土地用途数据~~~~~~~~"+forEatch3);
-				abc = TdxzAndFwytUtils.fetchFwyt(forEatch(forEatch3, plusMethod, key, value));
+				abc = TdxzAndFwytUtils.fetchFwyt(replaceAll21);
 				break;
 			case "FWYT":
-				String forEatch = forEatch(replaceAll, plusMethod, key, value);
-				if (forEatch.length()==0) {
-					forEatch =bdxz;
-				}
-				if (forEatch.length()==0) {
-					forEatch =replaceAll;
-				}
-				System.out.println("处置之前房屋用途数据~~~~~~~~"+forEatch);
-				abc = TdxzAndFwytUtils.fetchFwyt(forEatch);
+				abc = TdxzAndFwytUtils.fetchFwyt(replaceAll21);
 				break;
+			case "ZLQK":
+			    abc = forEatch(urlGetresponse, plusMethod, key, value).replace("情况", "");
+			    break;
 			default:
 				abc = forEatch(urlGetresponse, plusMethod, key, value);
 				break;

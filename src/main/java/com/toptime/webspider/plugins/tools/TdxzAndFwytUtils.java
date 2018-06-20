@@ -40,6 +40,7 @@ public class TdxzAndFwytUtils {
         fwytDic.put("居住", "居住");
         fwytDic.put("住宅", "居住");
         fwytDic.put("商业", "商业");
+        fwytDic.put("商住", "商业");
         fwytDic.put("办公", "办公");
         fwytDic.put("工业", "工业");
         fwytDic.put("综合", "综合");
@@ -54,6 +55,10 @@ public class TdxzAndFwytUtils {
      */
     public static String fetchTdxz(String text) {
         String tdxz = "其他";
+        text = text.replace("商业/工业类房地产标", "");
+        text = text.replace("住宅/商业类标", "");
+        text = text.replace("商业、工业类", "");
+        text = text.replace("住宅<span>/</span>商业", "");
         if (!isEmpty(text)) {
             try {
                 List<String> list = new ArrayList<>();
@@ -86,6 +91,10 @@ public class TdxzAndFwytUtils {
      * @return 房屋用途字段值
      */
     public static String fetchFwyt(String text) {
+        text = text.replace("商业/工业类房地产标", "");
+        text = text.replace("住宅/商业类标", "");
+        text = text.replace("商业、工业类标", "");
+        text = text.replace("住宅<span>/</span>商业", "");
         String fwyt = "其他";
         if (!isEmpty(text)) {
             try {
