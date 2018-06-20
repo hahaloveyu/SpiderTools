@@ -10,12 +10,12 @@ import com.toptime.webspider.plugins.tools.util.SimilarityUtil;
 import com.toptime.webspider.util.DomainUtils;
 import org.apache.commons.lang3.StringEscapeUtils;
 import org.apache.commons.lang3.StringUtils;
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.*;
 import java.util.regex.Matcher;
@@ -27,7 +27,7 @@ import java.util.regex.Pattern;
  */
 public class CommonMethod extends com.toptime.webspider.core.tools.CommonMethod {
 
-    private static Log logger = LogFactory.getLog(CommonMethod.class);
+    private static Logger logger = LoggerFactory.getLogger(CommonMethod.class);
 
     private String path = System.getProperty("java.class.path");
 
@@ -124,6 +124,87 @@ public class CommonMethod extends com.toptime.webspider.core.tools.CommonMethod 
         toolsInfo.setDateTimeList(dateTimeList);
         /*标题*/
         String title = html2Title.getTitle(doc);
+        toolsInfo.setTitle(title);
+        /*提取所有链接和标题	key: 0:域外 1:域内,value: url和标题map-key:url value:标题*/
+        Map<Integer, LinkedHashMap<String, String>> urlAndTitleMap = urlParser.getUrlAndTitleByDomain(doc, url);
+        toolsInfo.setUrlAndTitleMap(urlAndTitleMap);
+        /*判断列表页*/
+        boolean enabled = true;
+        if ("其他".equals(type)) {
+            enabled = false;
+        }
+        boolean isList = isList(html, content, url, enabled, linkTitle);
+        toolsInfo.setList(isList);
+        //如果不是列表页继续执行
+        if (!isList) {
+            /*关键词和摘要*/
+            String[] strings = keyWordParser.getKD4Meta(doc);
+            String keyWords = strings[0];
+            String summary = strings[1];
+            if (keyWords.isEmpty()) {
+                keyWords = hanLPAnalyze.extractKeyword(content, 5);
+            }
+            if (summary.isEmpty()) {
+                summary = hanLPAnalyze.extractSummary(content, 7);
+            }
+            toolsInfo.setKeyWords(keyWords);
+            toolsInfo.setSummary(summary);
+            Map<String, String> wordMap = hanLPAnalyze.segment(content);
+            toolsInfo.setNr(wordMap.get("nr"));
+            toolsInfo.setNs(wordMap.get("ns"));
+            toolsInfo.setNt(wordMap.get("nt"));
+            /*缩略图提取*/
+            List<ImgInfo> imgInfoList = thumbnailParser.getAllImgBase64(article, url);
+            toolsInfo.setImgInfoList(imgInfoList);
+            //原创判断
+            String source = MyStringUtils.regexParse(doc.text(), "来源");
+            toolsInfo.setSource(source);
+            int original = isOriginal(source, url, content);
+            toolsInfo.setOriginal(original);
+            /*自动格式化*/
+            if (isAutoFormat) {
+                Map<Integer, Map<String, String>> autoFormatMap = autoFormat.autoFormat(doc.html(), url);
+                toolsInfo.setAutoFormatMap(autoFormatMap);
+            }
+        }
+        logger.info("url:[" + url + "].end.");
+        return toolsInfo;
+    }
+
+    /**
+     * 获取tools常用数据
+     *
+     * @param url           网页URL
+     * @param html          网页源码
+     * @param isShowContent 是否需要showcontent
+     * @param isAutoFormat  是否需要自动格式化
+     * @param type          网站类别
+     * @param linkTitle     链接标题
+     * @param linkTitle     标题规则
+     * @return 返回tools 常用数据
+     */
+    public ToolsInfo getToolsInfo(String url, String html, boolean isShowContent, boolean isAutoFormat, String type, String linkTitle, String titleRule) {
+        logger.info(path);
+        logger.info("url:[" + url + "].start.");
+        ToolsInfo toolsInfo = new ToolsInfo();
+        toolsInfo.setUrl(url);
+        toolsInfo.setEmotiona(0);
+        /*网页清洗*/
+        Document doc = htmlCleaner.cleanHtml(html, url);
+        /*提取正文*/
+        Element article = readability.articleContent(doc.html(), url);
+        String content = article.text();
+        toolsInfo.setContent(MyStringUtils.filter(content));
+        if (isShowContent) {
+            String showContent = article.html().replaceAll("[\\r\\n\\t]", "");
+            toolsInfo.setShowContent(showContent);
+        }
+        /*提取日期时间*/
+        String text = doc.text();
+        List<Long> dateTimeList = datetimeParser.parserDateTimeAuto(text, url);
+        toolsInfo.setDateTimeList(dateTimeList);
+        /*标题*/
+        String title = html2Title.getTitle(html, url, titleRule);
         toolsInfo.setTitle(title);
         /*提取所有链接和标题	key: 0:域外 1:域内,value: url和标题map-key:url value:标题*/
         Map<Integer, LinkedHashMap<String, String>> urlAndTitleMap = urlParser.getUrlAndTitleByDomain(doc, url);
@@ -270,6 +351,168 @@ public class CommonMethod extends com.toptime.webspider.core.tools.CommonMethod 
         if (StringUtils.isEmpty(title)) {
             // 普通方式  提取标题
             title = html2Title.getTitle(html, url);
+        }
+
+        ToolsInfo toolsInfo = pubToolsInfo(url, html, content, showContent, isAutoFormat);
+        //TODO 情感分析
+        toolsInfo.setEmotiona(0);
+        toolsInfo.setTitle(title);
+        toolsInfo.setContent(MyStringUtils.filter(content));
+        if (needShowContent) {
+            toolsInfo.setShowContent(showContent);
+        }
+        toolsInfo.setDateTimeList(dateTimeList);
+        toolsInfo.setTemplateParserMap(templateParserMap);
+        toolsInfo.setList(isList(html, content, url, true, linkTitle));
+        logger.info("url:[" + url + "].end.");
+        return toolsInfo;
+    }
+
+    /**
+     * 获取tools常用数据
+     *
+     * @param url             网页URL
+     * @param html            网页源码
+     * @param regexpList      正则模版集合
+     * @param needShowContent 是否需要showcontent
+     * @param isAutoFormat    是否需要自动格式化
+     * @param titleRule
+     * @return 返回tools 常用数据
+     */
+    public ToolsInfo getToolsInfoByRegexp(String url, String html, List<RegexpConf> regexpList, boolean needShowContent, boolean isAutoFormat, String linkTitle, String titleRule) {
+        logger.info("url:[" + url + "].start.");
+        // 避免页面源码清洗后，html标签变化，提取不准，在html清洗前提取正文
+        // 提取正文
+        String content = "";
+        String showContent = "";
+        // 时间日期提取
+        List<Long> dateTimeList = null;
+        // 标题
+        String title = "";
+        // 其他字段 	模版格式化
+        List<Map<String, String>> templateParserMap = null;
+
+        // 正则提取   正文/时间/标题
+        if (regexpList != null && regexpList.size() > 0) {
+            for (RegexpConf regexp : regexpList) {
+                switch (regexp.getTempName().toUpperCase()) {
+                    case "DRECONTENT":
+                        // 正则提取正文
+                        String[] contents = articleParser.getContent4Template(html, url, regexp.getRegex(), 1);
+                        content = contents[0];
+                        showContent = contents[1];
+                        break;
+                    case "DREDATE":
+                        // 正则提取时间
+                        dateTimeList = datetimeParser.parserDateTimeTemplate(html, url, regexp.getRegex(), 1);
+                        break;
+                    case "DRETITLE":
+                        // 正则提取标题
+                        title = html2Title.getTitleTemplate(html, url, regexp.getRegex(), 1);
+                        break;
+                    default:
+                }
+            }
+            // 其他字段 	模版格式化
+            templateParserMap = templateParser.regexpExtract(html, url, regexpList);
+        }
+
+        // 网页源码清洗标准化
+        html = htmlCleaner.standardizingHtml(html, url, false);
+        // 正则没有获取到 正文/时间/标题  , 则走普通方式,试用清洗后源码
+        if (StringUtils.isEmpty(content)) {
+            Element contents = readability.articleContent(html, url);
+            content = contents.text();
+            showContent = contents.html();
+        }
+        if (dateTimeList == null || dateTimeList.size() == 0) {
+            // 时间日期提取 首先删除网页中链接防止干扰
+            dateTimeList = datetimeParser.parserDateTimeAuto(html, url);
+        }
+        if (StringUtils.isEmpty(title)) {
+            // 普通方式  提取标题
+            title = html2Title.getTitle(html, url,titleRule);
+        }
+
+        ToolsInfo toolsInfo = pubToolsInfo(url, html, content, showContent, isAutoFormat);
+        //TODO 情感分析
+        toolsInfo.setEmotiona(0);
+        toolsInfo.setTitle(title);
+        toolsInfo.setContent(MyStringUtils.filter(content));
+        if (needShowContent) {
+            toolsInfo.setShowContent(showContent);
+        }
+        toolsInfo.setDateTimeList(dateTimeList);
+        toolsInfo.setTemplateParserMap(templateParserMap);
+        toolsInfo.setList(isList(html, content, url, true, linkTitle));
+        logger.info("url:[" + url + "].end.");
+        return toolsInfo;
+    }
+
+    /**
+     * 获取tools常用数据
+     *
+     * @param url             网页URL
+     * @param html            网页源码
+     * @param xpathList       xpath模版集合
+     * @param needShowContent 是否需要showcontent
+     * @param isAutoFormat    是否需要自动格式化
+     * @param titleRule
+     * @return 返回tools 常用数据
+     */
+    public ToolsInfo getToolsInfByXpath(String url, String html, List<XpathConf> xpathList, boolean needShowContent, boolean isAutoFormat, String linkTitle, String titleRule) {
+        logger.info("url:[" + url + "].start.");
+        // 避免页面源码清洗后，html标签变化，提取不准，在html清洗前提取正文
+        // 提取正文
+        String content = "";
+        String showContent = "";
+        // 时间日期提取
+        List<Long> dateTimeList = null;
+        // 标题
+        String title = "";
+        // 其他字段 	模版格式化
+        List<Map<String, String>> templateParserMap = null;
+
+        // xpath模版提取   正文/时间/标题
+        if (xpathList != null && xpathList.size() > 0) {
+            for (XpathConf xpath : xpathList) {
+                switch (xpath.getTempName().toUpperCase()) {
+                    case "DRECONTENT":
+                        // xpath模版提取正文
+                        String[] contents = articleParser.getContent4Template(html, url, xpath.getXpath(), 0);
+                        content = contents[0];
+                        showContent = contents[1];
+                        break;
+                    case "DREDATE":
+                        // xpath模版提取时间
+                        dateTimeList = datetimeParser.parserDateTimeTemplate(html, url, xpath.getXpath(), 0);
+                        break;
+                    case "DRETITLE":
+                        // xpath模版提取标题
+                        title = html2Title.getTitleTemplate(html, url, xpath.getXpath(), 0);
+                        break;
+                    default:
+                }
+            }
+            // 其他字段 	模版格式化
+            templateParserMap = templateParser.xpathExtract(html, url, xpathList);
+        }
+
+        // 网页源码清洗标准化
+        html = htmlCleaner.standardizingHtml(html, url, false);
+        // 正则没有获取到 正文/时间/标题  , 则走普通方式,试用清洗后源码
+        if (StringUtils.isEmpty(content)) {
+            Element contents = readability.articleContent(html, url);
+            content = contents.text();
+            showContent = contents.html();
+        }
+        if (dateTimeList == null) {
+            // 时间日期提取 首先删除网页中链接防止干扰
+            dateTimeList = datetimeParser.parserDateTimeAuto(html, url);
+        }
+        if (StringUtils.isEmpty(title)) {
+            // 普通方式  提取标题
+            title = html2Title.getTitle(html, url,titleRule);
         }
 
         ToolsInfo toolsInfo = pubToolsInfo(url, html, content, showContent, isAutoFormat);
@@ -611,6 +854,11 @@ public class CommonMethod extends com.toptime.webspider.core.tools.CommonMethod 
         toolsInfo.setNs(wordMap.get("ns"));
         toolsInfo.setNt(wordMap.get("nt"));
         toolsInfo.setImgInfoList(imgInfoList);
+        //原创判断
+        String source = MyStringUtils.regexParse(Jsoup.parse(html).text(), "来源");
+        toolsInfo.setSource(source);
+        int original = isOriginal(source, url, content);
+        toolsInfo.setOriginal(original);
         if (isAutoFormat) {// 自动格式化
             Map<Integer, Map<String, String>> autoFormatMap = autoFormat.autoFormat(html, url);
             toolsInfo.setAutoFormatMap(autoFormatMap);

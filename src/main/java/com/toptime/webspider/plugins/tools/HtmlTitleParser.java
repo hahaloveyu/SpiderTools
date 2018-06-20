@@ -1,5 +1,7 @@
 package com.toptime.webspider.plugins.tools;
 
+import com.toptime.webspider.plugins.tools.util.MyStringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
@@ -78,6 +80,39 @@ public class HtmlTitleParser {
      * @return
      */
     public String getTitle(Document doc) {
+        //获取head中的title
+        String title = doc.title().trim();
+        //面包屑分割
+        String[] titles = title.split("\\||_|-|&minus;");
+        if (titles.length > 1) {
+            title = titles[0];
+            return title;
+        }
+        if (title.length() < 8) {
+            for (int headerIndex = 1; headerIndex < 7; headerIndex++) {
+                Elements headers = doc.getElementsByTag("h" + headerIndex);
+                if (headers.size() > 0) {
+                    title = headers.get(0).text();
+                    break;
+                }
+            }
+        }
+        return title;
+    }
+
+    /**
+     * 提取标题
+     *
+     * @param html
+     * @param url
+     * @param titleRule
+     * @return
+     */
+    public String getTitle(String html, String url, String titleRule) {
+        if (StringUtils.isNotEmpty(titleRule)) {
+            return MyStringUtils.regexParse(html, titleRule);
+        }
+        Document doc = Jsoup.parse(html, url);
         //获取head中的title
         String title = doc.title().trim();
         //面包屑分割
